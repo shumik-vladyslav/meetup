@@ -1,0 +1,16 @@
+.label {
+    min-width: 50%;
+    width: 50%;
+    display: inline-block;
+}
+
+.submit-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    button {
+        margin: 0 20px;
+    }
+}

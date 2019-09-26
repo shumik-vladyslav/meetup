@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "assets/scss/style.scss";
+
+html,
+body {
+    height: 100%;
+    min-height: 100vh;
+    color: #333333;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.header {
+    .mat-toolbar {
+        box-shadow: 0 -1px 4px #00000082;
+    }
+}
+
+.slide-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    span {
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        &:last-child {
+            margin-left: 10px;
+        }
+    }
+}
+
+mat-slide-toggle {
+    width: 36px;
+}
+
+// helpers
+.df {
+    display: flex;
+}
+.jc-b {
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center
+}
