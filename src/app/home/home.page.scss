@@ -5,6 +5,20 @@
   overflow: hidden;
 }
 
+.notif-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 100px;
+
+  &:hover {
+    background: #eff5ff;
+  }
+}
+
 .bg-main {
   background-size: 49px 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(#edf3fa), color-stop(0%, #edf3fa), to(#edf3fa));
@@ -182,7 +196,8 @@ ion-card {
   position: fixed;
   bottom: 0;
   width: 100%;
-  ion-button{
+
+  ion-button {
     height: 70px;
   }
 }
