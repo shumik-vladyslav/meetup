@@ -15,6 +15,7 @@
   /* height: 100%; */
   background-position: 0 16px;
   padding-bottom: 60px;
+  min-height: 100%;
 }
 
 ion-card {
@@ -25,7 +26,7 @@ ion-card {
   margin-inline-start: 20px;
   -webkit-margin-end: 20px;
   margin-inline-end: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 
   .banner {
     border-radius: 3px 3px 0 0;
@@ -181,6 +182,9 @@ ion-card {
   position: fixed;
   bottom: 0;
   width: 100%;
+  ion-button{
+    height: 70px;
+  }
 }
 
 .filter {
